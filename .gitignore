@@ -1,0 +1,46 @@
+# 编译产物
+build/
+output/
+log/
+
+# Qt 部署文件
+*.qm
+platforms/
+styles/
+translations/
+generic/
+tls/
+networkinformation/
+iconengines/
+imageformats/
+
+# 可执行文件 & DLL
+*.exe
+*.dll
+*.manifest
+
+# 编译中间文件
+*.obj
+*.o
+*.pdb
+*.lib
+*.exp
+*.ilk
+
+# CMake 生成
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.vcxproj*
+*.sln
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# 临时文件
+*.log
+*.tmp
+__pycache__/
